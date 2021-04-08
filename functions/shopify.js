@@ -1,4 +1,5 @@
 const sanityClient = require('@sanity/client');
+require("dotenv").config()
 
 const {
   REACT_APP_SANITY_API_TOKEN,
